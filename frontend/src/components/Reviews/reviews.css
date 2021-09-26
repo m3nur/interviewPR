@@ -1,0 +1,141 @@
+/* font-family: 'Comfortaa', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.wrap {
+  width: 300px;
+  transition: 0.2s;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 5px;
+  position: relative;
+}
+
+.wrap:hover {
+  box-shadow: 0 0 4px;
+}
+
+.wrap .block-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 190px;
+  width: 300px;
+  border-radius: 4px 4px 0 0;
+  border-bottom: white;
+}
+
+.wrap .block-title {
+  border-radius: 0 0 4px 4px;
+  background-color: #efefef;
+  width: 100%;
+  padding: 15px;
+}
+
+.wrap .block-title .user-name {
+  font-size: 15px;
+  font-family: 'Comfortaa', cursive;
+  margin: 0 10px 0 0;
+  line-height: 25px;
+}
+
+.wrap .salary {
+  border: 1px solid #007cea;
+  padding: 2px 10px;
+  font-size: 20px;
+  border-radius: 4px;
+  font-family: system-ui;
+  background: #007cea;
+  font-weight: 900;
+  color: white;
+  position: absolute;
+  right: -6px;
+  top: 148px;
+}
+
+.wrap .block-title .company-location {
+  font-size: 18px;
+  line-height: 21px;
+  font-family: 'Comfortaa', cursive;
+  margin: 7px 0 0 0;
+}
+
+.wrap .block-title a {
+  font-size: 15px;
+  border: 1px solid rgb(48, 56, 65);
+  padding: 1px 5px;
+  border-radius: 4px;
+  font-family: 'Comfortaa', cursive;
+  color: rgb(48, 56, 65);
+  cursor: pointer;
+}
+
+.wrap .block-title a:hover {
+  color: white;
+  background: rgb(48, 56, 65);
+  transition: all 0.6s;
+}
+
+.wrap .block-img .rating {
+  border: 1px solid #27af27;
+  padding: 0 18px;
+  font-size: 20px;
+  font-weight: 900;
+  color: white;
+  background-color: #27af27;
+  border-radius: 4px;
+  position: absolute;
+  top: 5px;
+  left: -6px;
+}
+
+.wrap-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrap .wrapper-user-position {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 7px 0 0 0;
+}
+
+.wrap .user-working-pasition {
+  font-size: 19px;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 900;
+}
+
+.wrap .icons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 20px;
+}
+
+.wrap .icons .fa-edit {
+  margin-bottom: 5px;
+}
+
+.wrap .icons .fa-trash {
+  padding: 1px 5px;
+}
+
+.wrap .trashBtn {
+  margin-top: 5px;
+}
+
+.wrap .icons i {
+  padding: 2px;
+}
+.wrap .date {
+  width: 100%;
+  text-align: end;
+}

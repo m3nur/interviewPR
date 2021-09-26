@@ -1,0 +1,89 @@
+.registerSection {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+}
+
+.registerSection .registerForm .logo {
+  font-family: 'Permanent Marker', cursive;
+  color: rgb(48, 56, 65);
+  font-size: 35px;
+  text-align: center;
+}
+
+.registerSection .registerForm .logo span {
+  color: red;
+}
+
+.registerSection .registerForm .registerText {
+  font-family: 'Comfortaa', cursive;
+  color: rgb(48, 56, 65);
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.registerSection .registerForm .registerInputs {
+  font-family: 'Comfortaa', cursive;
+  color: rgb(48, 56, 65);
+  font-size: 20px;
+}
+
+.registerSection .registerForm .registerInputs input {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  color: black;
+  border: 1px solid rgb(48, 56, 65);
+  height: 40px;
+  outline: none;
+}
+
+.registerSection .registerForm .login {
+  font-family: 'Comfortaa', cursive;
+  color: rgb(48, 56, 65);
+  font-size: 20px;
+  text-align: end;
+}
+
+.registerSection .registerForm .registerInputs .registerBtn {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 35px;
+  border-radius: 5px;
+  border: 1px solid rgb(48, 56, 65);
+  height: 40px;
+  background: rgb(48, 56, 65);
+  color: white;
+}
+
+.registerSection .registerForm .registerInputs label {
+  margin-bottom: 10px;
+}
+
+.registerForm .authWithGoogle .socialNetwork {
+  font-family: 'Comfortaa', cursive;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.registerForm .authWithGoogle .google {
+  display: flex;
+  justify-content: center;
+}
+
+.registerForm .or {
+  padding: 15px 0;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Comfortaa', cursive;
+  font-size: 18px;
+}

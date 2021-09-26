@@ -1,0 +1,16 @@
+export const GET_ALL = 'GET_ALL';
+export const ADD_REVIEW = 'ADD_REVIEW';
+export const GET_ALL_COMPANYS = 'GET_ALL_COMPANYS';
+export const AUTH = 'AUTH';
+export const SAGA_REGISTER = 'SAGA_REGISTER';
+export const LOG_OUT = 'LOG_OUT';
+export const SAGA_LOGIN = 'SAGA_LOGIN';
+export const SORT_REVIEWS = 'SORT_REVIEWS';
+export const GET_USER = 'GET_USER';
+export const GET_ALL_FROM_SERVER = 'GET_ALL_FROM_SERVER';
+export const GET_CURRENT_COMPANY = 'GET_CURRENT_COMPANY';
+export const SET_CURRENT_COMPANY = 'SET_CURRENT_COMPANY';
+export const PROGINATION_REVIEWS = 'PROGINATION_REVIEWS';
+export const SET_USER = 'SET_USER';
+export const CLEAR_ALL = 'CLEAR_ALL';
+export const EDIT_PROFILE = 'EDIT_PROFILE';

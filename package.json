@@ -1,0 +1,26 @@
+{
+  "name": "interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "build": "cd frontend && yarn && yarn build",
+    "start": "cd backend && yarn && yarn start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NurMura88/interview.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NurMura88/interview/issues"
+  },
+  "homepage": "https://github.com/NurMura88/interview#readme",
+  "engines": {
+    "node": "16.x"
+  }
+}

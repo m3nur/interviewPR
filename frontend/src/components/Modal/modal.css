@@ -1,0 +1,82 @@
+/* font-family: 'Comfortaa', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+
+.modal {
+  height: 100vh;
+  width: 200vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.modal.active {
+  z-index: 1;
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal-content {
+  padding: 20px;
+  border-radius: 12px;
+  width: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  transition: all .6s;
+}
+
+.modal-content.active {
+  transform: scale(1);
+  background-color: rgb(246, 246, 246);
+}
+
+.form-group h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.form-group .modal-form {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.as {
+  font-family: 'Comfortaa', cursive;
+}
+
+.as label {
+  font-family: 'Comfortaa', cursive;
+  color: rgb(48, 56, 65);
+  font-size: 20px;
+}
+
+.as input {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  color: black;
+  border: 1px solid rgb(48, 56, 65);
+  height: 40px;
+  outline: none;
+}
+
+.as .btn-success {
+  margin-top: 10px;
+}
+
+.as .checkedBtn {
+  width: 50px !important;
+}

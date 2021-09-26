@@ -1,0 +1,83 @@
+/* font-family: 'Comfortaa', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+.currentCompany {
+  margin-top: 120px;
+  font-family: 'Comfortaa', cursive;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: -5px;
+}
+
+.currentCompany .company {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 5px;
+  position: relative;
+  flex-direction: column;
+}
+
+.currentCompany .company a {
+  margin-right: 10px;
+}
+
+.currentCompany .company a img {
+  width: 200px;
+}
+
+.currentCompany .company h1 {
+  margin: 0;
+  width: 100%;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  margin-left: -60px;
+  z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.forGraduateStudents {
+  display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    top: -50px;
+    position: absolute;
+}
+
+.forGraduateStudents .btn {
+  padding: 5px;
+  background: white;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.forGraduateStudents .btn:hover {
+  background: rgb(48, 56, 65);
+  color: white;
+  transition: all .6s;
+}

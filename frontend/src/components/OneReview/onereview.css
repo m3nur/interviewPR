@@ -1,0 +1,73 @@
+/* font-family: 'Comfortaa', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+.currentPost {
+  margin-top: 120px;
+  padding: 15px;
+  font-family: 'Comfortaa', cursive;
+}
+
+.currentPost .companyLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  padding: 5px;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+
+.currentPost .currentPostInfo {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.currentPost .currentPostInfo b {
+  font-size: 18px;
+}
+
+.currentPostInfo .author {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid #e5efef;
+  padding: 10px 10px;
+  font-size: 20px;
+  background: azure;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.currentPostInfo .reviewIcons {
+  width: 100%;
+}
+
+.red {
+  font-size: 30px;
+  color: red;
+  padding: 10px 0;
+}
+.grey {
+  font-size: 30px;
+  padding: 10px 0;
+}
+
+.editBtn{
+  font-size: 30px;
+  color: black;
+  padding: 10px 0;
+}
+
+.currentPostInfo .reviewIcons  .editBtn:hover {
+  color: rgb(74, 74, 253);
+  transition: all .5s;
+}
+
+.Settled {
+  border: 1px solid;
+  padding: 4px;
+  border-radius: 4px;
+  margin: 5px 0;
+}

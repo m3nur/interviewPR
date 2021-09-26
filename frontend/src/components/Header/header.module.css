@@ -1,0 +1,61 @@
+/* font-family: 'Comfortaa', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+.header {
+  position: fixed;
+  z-index: 1;
+  height: 80px;
+  width: 100%;
+  top: 0;
+  border-bottom: solid 0;
+  box-shadow: 0 0 2px;
+  background: white;
+}
+
+.header .burger {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  padding: 15px;
+}
+
+.header .burger ul {
+  display: flex;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.header .burger ul li:not(:first-child) {
+  margin:  0 0 0 15px;
+}
+
+.header .burger a {
+  display: flex;
+  align-items: center;
+}
+
+.header .burger .logo {
+  font-family: 'Permanent Marker', cursive;
+  color: rgb(48, 56, 65);
+  font-size: 30px;
+}
+
+.header .burger .logo span {
+  color: red;
+}
+
+.header .burger div {
+  display: flex;
+  align-items: center;
+}
+
+.header .burger ul li {
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive;
+}
+
+.header .burger ul li a{
+  color: rgb(48, 56, 65)
+}
+

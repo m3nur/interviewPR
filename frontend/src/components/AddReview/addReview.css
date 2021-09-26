@@ -1,0 +1,14 @@
+/* font-family: 'Comfortaa', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+.addReviewsSection {
+  margin-top: 60px;
+  padding: 15px;
+  font-family: 'Comfortaa', cursive;
+}
+
+.addReviewsSection .addReviewTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
